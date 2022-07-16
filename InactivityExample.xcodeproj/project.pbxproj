@@ -14,16 +14,33 @@
 		78208AF628635A8F00F64FA0 /* ActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78208AF428635A8F00F64FA0 /* ActiveView.swift */; };
 		78208AF728635A8F00F64FA0 /* InactiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78208AF528635A8F00F64FA0 /* InactiveView.swift */; };
 		78208AFA28635AAF00F64FA0 /* Inactivity in Frameworks */ = {isa = PBXBuildFile; productRef = 78208AF928635AAF00F64FA0 /* Inactivity */; };
+		78CD971E2882322600320F47 /* MockServerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD971D2882322600320F47 /* MockServerExampleApp.swift */; };
+		78CD97202882322600320F47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD971F2882322600320F47 /* ContentView.swift */; };
+		78CD97222882322700320F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CD97212882322700320F47 /* Assets.xcassets */; };
+		78CD97252882322700320F47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CD97242882322700320F47 /* Preview Assets.xcassets */; };
+		78CD97292882323000320F47 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD970F28822C5000320F47 /* LoginView.swift */; };
+		78CD972A2882323000320F47 /* LoggedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD971328822DB800320F47 /* LoggedView.swift */; };
+		78CD972C2882323000320F47 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD971528822E7500320F47 /* AuthService.swift */; };
+		78CD9730288232C300320F47 /* Inactivity in Frameworks */ = {isa = PBXBuildFile; productRef = 78CD972F288232C300320F47 /* Inactivity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		78208ADC286358AD00F64FA0 /* InactivtiyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InactivtiyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78208ADC286358AD00F64FA0 /* InactivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InactivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78208ADF286358AD00F64FA0 /* InactivityExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityExampleApp.swift; sourceTree = "<group>"; };
 		78208AE1286358AD00F64FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78208AE3286358AE00F64FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78208AE6286358AE00F64FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78208AF428635A8F00F64FA0 /* ActiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveView.swift; sourceTree = "<group>"; };
 		78208AF528635A8F00F64FA0 /* InactiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InactiveView.swift; sourceTree = "<group>"; };
+		78CD970F28822C5000320F47 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		78CD971328822DB800320F47 /* LoggedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedView.swift; sourceTree = "<group>"; };
+		78CD971528822E7500320F47 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		78CD971B2882322600320F47 /* MockServerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockServerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CD971D2882322600320F47 /* MockServerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServerExampleApp.swift; sourceTree = "<group>"; };
+		78CD971F2882322600320F47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78CD97212882322700320F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78CD97242882322700320F47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78CD972D288232BD00320F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,36 +52,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78CD97182882322600320F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CD9730288232C300320F47 /* Inactivity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		78208AD3286358AD00F64FA0 = {
 			isa = PBXGroup;
 			children = (
-				78208ADE286358AD00F64FA0 /* InactivtiyExample */,
+				78208ADE286358AD00F64FA0 /* InactivityExample */,
+				78CD971C2882322600320F47 /* MockServerExample */,
 				78208ADD286358AD00F64FA0 /* Products */,
+				78CD972E288232C300320F47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		78208ADD286358AD00F64FA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78208ADC286358AD00F64FA0 /* InactivtiyExample.app */,
+				78208ADC286358AD00F64FA0 /* InactivityExample.app */,
+				78CD971B2882322600320F47 /* MockServerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		78208ADE286358AD00F64FA0 /* InactivtiyExample */ = {
+		78208ADE286358AD00F64FA0 /* InactivityExample */ = {
 			isa = PBXGroup;
 			children = (
+				78208ADF286358AD00F64FA0 /* InactivityExampleApp.swift */,
 				78208AF428635A8F00F64FA0 /* ActiveView.swift */,
 				78208AF528635A8F00F64FA0 /* InactiveView.swift */,
-				78208ADF286358AD00F64FA0 /* InactivityExampleApp.swift */,
 				78208AE1286358AD00F64FA0 /* ContentView.swift */,
 				78208AE3286358AE00F64FA0 /* Assets.xcassets */,
 				78208AE5286358AE00F64FA0 /* Preview Content */,
 			);
-			name = InactivtiyExample;
 			path = InactivityExample;
 			sourceTree = "<group>";
 		};
@@ -76,12 +103,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		78CD971C2882322600320F47 /* MockServerExample */ = {
+			isa = PBXGroup;
+			children = (
+				78CD972D288232BD00320F47 /* Info.plist */,
+				78CD971528822E7500320F47 /* AuthService.swift */,
+				78CD970F28822C5000320F47 /* LoginView.swift */,
+				78CD971328822DB800320F47 /* LoggedView.swift */,
+				78CD971D2882322600320F47 /* MockServerExampleApp.swift */,
+				78CD971F2882322600320F47 /* ContentView.swift */,
+				78CD97212882322700320F47 /* Assets.xcassets */,
+				78CD97232882322700320F47 /* Preview Content */,
+			);
+			path = MockServerExample;
+			sourceTree = "<group>";
+		};
+		78CD97232882322700320F47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78CD97242882322700320F47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78CD972E288232C300320F47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78208ADB286358AD00F64FA0 /* InactivtiyExample */ = {
+		78208ADB286358AD00F64FA0 /* InactivityExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78208AEA286358AE00F64FA0 /* Build configuration list for PBXNativeTarget "InactivtiyExample" */;
+			buildConfigurationList = 78208AEA286358AE00F64FA0 /* Build configuration list for PBXNativeTarget "InactivityExample" */;
 			buildPhases = (
 				78208AD8286358AD00F64FA0 /* Sources */,
 				78208AD9286358AD00F64FA0 /* Frameworks */,
@@ -91,12 +148,32 @@
 			);
 			dependencies = (
 			);
-			name = InactivtiyExample;
+			name = InactivityExample;
 			packageProductDependencies = (
 				78208AF928635AAF00F64FA0 /* Inactivity */,
 			);
 			productName = InactivtiyExample;
-			productReference = 78208ADC286358AD00F64FA0 /* InactivtiyExample.app */;
+			productReference = 78208ADC286358AD00F64FA0 /* InactivityExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78CD971A2882322600320F47 /* MockServerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CD97262882322700320F47 /* Build configuration list for PBXNativeTarget "MockServerExample" */;
+			buildPhases = (
+				78CD97172882322600320F47 /* Sources */,
+				78CD97182882322600320F47 /* Frameworks */,
+				78CD97192882322600320F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockServerExample;
+			packageProductDependencies = (
+				78CD972F288232C300320F47 /* Inactivity */,
+			);
+			productName = MockServerExample;
+			productReference = 78CD971B2882322600320F47 /* MockServerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,6 +187,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					78208ADB286358AD00F64FA0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					78CD971A2882322600320F47 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -130,7 +210,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78208ADB286358AD00F64FA0 /* InactivtiyExample */,
+				78208ADB286358AD00F64FA0 /* InactivityExample */,
+				78CD971A2882322600320F47 /* MockServerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -145,6 +226,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78CD97192882322600320F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CD97252882322700320F47 /* Preview Assets.xcassets in Resources */,
+				78CD97222882322700320F47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -156,6 +246,18 @@
 				78208AE2286358AD00F64FA0 /* ContentView.swift in Sources */,
 				78208AE0286358AD00F64FA0 /* InactivityExampleApp.swift in Sources */,
 				78208AF728635A8F00F64FA0 /* InactiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CD97172882322600320F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CD972A2882323000320F47 /* LoggedView.swift in Sources */,
+				78CD97292882323000320F47 /* LoginView.swift in Sources */,
+				78CD972C2882323000320F47 /* AuthService.swift in Sources */,
+				78CD97202882322600320F47 /* ContentView.swift in Sources */,
+				78CD971E2882322600320F47 /* MockServerExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +436,66 @@
 			};
 			name = Release;
 		};
+		78CD97272882322700320F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MockServerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KTNSBRTNB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MockServerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heltena.MockServerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78CD97282882322700320F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MockServerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KTNSBRTNB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MockServerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heltena.MockServerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,11 +508,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78208AEA286358AE00F64FA0 /* Build configuration list for PBXNativeTarget "InactivtiyExample" */ = {
+		78208AEA286358AE00F64FA0 /* Build configuration list for PBXNativeTarget "InactivityExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78208AEB286358AE00F64FA0 /* Debug */,
 				78208AEC286358AE00F64FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CD97262882322700320F47 /* Build configuration list for PBXNativeTarget "MockServerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CD97272882322700320F47 /* Debug */,
+				78CD97282882322700320F47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -362,14 +533,19 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/heltena/Inactivity";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				kind = exactVersion;
+				version = 1.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		78208AF928635AAF00F64FA0 /* Inactivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78208AF828635AAF00F64FA0 /* XCRemoteSwiftPackageReference "Inactivity" */;
+			productName = Inactivity;
+		};
+		78CD972F288232C300320F47 /* Inactivity */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 78208AF828635AAF00F64FA0 /* XCRemoteSwiftPackageReference "Inactivity" */;
 			productName = Inactivity;
