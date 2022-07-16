@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heltena/Inactivity",
       "state" : {
-        "revision" : "f4e3f3afbfdaad823752b58040484d7897a08f4d",
-        "version" : "1.0.1"
+        "revision" : "7e770f9f5670faf24056212da39361298ede21db",
+        "version" : "1.0.3"
       }
     }
   ],
