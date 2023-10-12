@@ -12,7 +12,7 @@ struct InactiveView: View {
     var becomeActive: () -> Void
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
                 Spacer()
                 Image(systemName: "globe.asia.australia")
@@ -23,7 +23,7 @@ struct InactiveView: View {
             }
             .navigationTitle("Your are inactive")
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
+                ToolbarItem {
                     Button {
                         becomeActive()
                     } label: {
@@ -31,6 +31,12 @@ struct InactiveView: View {
                     }
                 }
             }
+        }
+        .onAppear {
+            print("Appear")
+        }
+        .onDisappear {
+            print("Disappear")
         }
     }
 }

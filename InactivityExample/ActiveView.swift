@@ -26,7 +26,7 @@ struct ActiveView: View {
     }
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 Section {
                     TextField("Operand", text: $firstOperand)
@@ -46,6 +46,7 @@ struct ActiveView: View {
                     }
                 }
             }
+            .formStyle(.grouped)
             .navigationTitle("You are active!")
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {

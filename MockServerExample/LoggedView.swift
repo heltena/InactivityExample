@@ -14,7 +14,7 @@ struct LoggedView: View {
     var username: String
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 Section {
                     Text("This is your data")
@@ -24,6 +24,7 @@ struct LoggedView: View {
                     Slider(value: $count, in: 0...100)
                 }
             }
+            .formStyle(.grouped)
             .navigationTitle("Hello, \(username)")
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {

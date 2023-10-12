@@ -14,7 +14,7 @@ struct LoginView: View {
     @State var password: String = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 Section {
                     TextField("Username", text: $username)
@@ -52,6 +52,7 @@ struct LoginView: View {
                     EmptyView()
                 }
             }
+            .formStyle(.grouped)
             .navigationTitle("Login")
         }
         .disabled(authService.status == .connecting)
